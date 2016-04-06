@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multimeter", "Multimeter.csproj", "{A119758F-7639-4B17-A53A-5AC50C974304}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QM1571", "QM1571.csproj", "{027096C0-4887-4B45-A500-2693BF22E1C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,10 +10,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A119758F-7639-4B17-A53A-5AC50C974304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A119758F-7639-4B17-A53A-5AC50C974304}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A119758F-7639-4B17-A53A-5AC50C974304}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A119758F-7639-4B17-A53A-5AC50C974304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027096C0-4887-4B45-A500-2693BF22E1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027096C0-4887-4B45-A500-2693BF22E1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027096C0-4887-4B45-A500-2693BF22E1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027096C0-4887-4B45-A500-2693BF22E1C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

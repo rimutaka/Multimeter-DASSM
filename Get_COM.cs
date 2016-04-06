@@ -10,7 +10,7 @@ using System.Collections;
 using System.Management;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Windows.Forms;
+
 
 namespace Get_COMX
 {
@@ -24,8 +24,7 @@ namespace Get_COMX
       try
       {
         IntPtr classDevs = HardWareLib.SetupDiGetClassDevs(ref gClass, enumerator, IntPtr.Zero, 6U);
-        if (classDevs.ToInt32() == -1)
-          throw new Exception("没有该类设备");
+        if (classDevs.ToInt32() == -1) throw new Exception("Get_COMX exception: HardWareLib.SetupDiGetClassDevs");
         HardWareLib.SP_DEVINFO_DATA spDevinfoData = new HardWareLib.SP_DEVINFO_DATA();
         spDevinfoData.cbSize = 28;
         spDevinfoData.devInst = 0;
@@ -56,7 +55,7 @@ namespace Get_COMX
       }
       catch (Exception ex)
       {
-        int num = (int) MessageBox.Show(ex.Message);
+          QM1571.Program.LogIt(ex.Message);
         return (ArrayList) null;
       }
       return arrayList;
