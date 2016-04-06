@@ -5,17 +5,10 @@
 // Assembly location: C:\Program Files (x86)\Multimeter\Multimeter.exe
 
 using Get_COMX;
-using Microsoft.VisualBasic;
 using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
 using System.IO;
 using System.IO.Ports;
-using System.Management;
-using System.Text;
 using System.Threading;
 
 namespace QM1571
